@@ -1,6 +1,7 @@
 import express from 'express'
 import fetch from 'node-fetch'
 import morgan from 'morgan'
+import { ReservationController } from './domain/ReservationController'
 
 import { Seat } from './seat'
 
